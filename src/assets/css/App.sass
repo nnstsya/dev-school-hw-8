@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap')
+@import 'node_modules/@fortawesome/fontawesome-svg-core/styles.css'
+
+#body
+    background-color: #c4d9ff
+
+.todo-list-container,
+.input-icon,
+.select-all-container,
+.task-buttons
+    display: flex
+
+.todo-list-container
+    align-items: center
+    background-color: white
+    border-radius: 15px
+    box-shadow: rgba(50, 50, 93, 0.25) 0 2px 5px -1px, rgba(0, 0, 0, 0.3) 0 1px 3px -1px
+    flex-direction: column
+    font-family: 'Poppins', sans-serif
+    margin-block: 50px
+    padding-block: 50px
+    min-width: 320px
+
+.todo-list-heading
+    font-weight: 700
+
+.input-search
+    place-items: center
+    justify-content: space-between
+
+.input-icon,
+.select-all-container
+    place-content: center
+
+.input-icon:hover
+    cursor: pointer
+
+.check-all-tasks-button, .uncheck-all-tasks-button
+    margin-right: 10px
+
+.task-container
+    border-radius: 10px
+    box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px, rgba(0, 0, 0, 0.24) 0 1px 2px
+    margin-top: 30px
+    padding: 8px
+    place-items: center
+    justify-content: space-around
+
+.form-check
+    appearance: auto
+    margin-top: 0
+
+.task-name-container
+    justify-self: start
+    overflow-wrap: break-word
+    font-size: 18px
+
+.checked
+    text-decoration: line-through
+
+.task-buttons
+    justify-content: space-around
+    place-items: center
+
+.header-container
+    place-items: center
+
+.todo-list-heading
+    text-align: center
+    overflow-wrap: break-word
+
+.back-to-main-icon
+    font-size: 24px
